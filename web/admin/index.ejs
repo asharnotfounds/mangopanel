@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+</head>
+<!-- <body style="text-align: center; align-items: center; "> -->
+<body style="text-align: center; align-items: center; margin-left: 35%;">
+    
+        <table style="text-align: center; align-items: center; ">
+            <tr>
+                <th>ID</th>
+                <th>Email</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>action</th>
+            </tr>
+            <% users.forEach(user => { %>
+                <tr>
+                    <td><%= user.id %></td>
+                    <td><%= user.email %></td>
+                    <td><%= user.username %></td>
+                    <td><%= user.status %></td>
+                    <th><a href="/admin?action=verify&userid=<%= user.id %>">verify</a></th>
+                </tr><br>
+                <% }) %>
+        </table>
+</body>
+</html>
