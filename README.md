@@ -29,7 +29,7 @@ We welcome contributions from the open-source community. Feel free to open issue
 
 ## Ⓜ️ License
 
-This login system is open-source and available under the [MIT License](https://github.com/asharnotfound/mangopanel/blob/main/LICENSE). You are free to use it in both open-source and commercial projects.
+This login system is open-source and available under the [MIT License](https://github.com/asharnotfounds/mangopanel/blob/main/LICENSE). You are free to use it in both open-source and commercial projects.
 
 ## 📬 Support and Contact
 
